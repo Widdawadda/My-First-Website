@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    
+    <!--Google Fonts: choose few of your own-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Frontend Dev Portfolio</title>
+</head>
+<body>
+    <!--The logo and menu bar-->
+    <header>
+        <div class="logo">
+            <img src="img/" alt="">
+        </div>
+
+        <!-- <nav class="nav-bar">
+            <ul class="nav-bar__list">
+                <li class="nav-bar__item"><a href="#home" class="nav-bar__link">00Home</a></li>
+                <li class="nav-bar__item"><a href="#services" class="nav-bar__link">01Services</a></li>
+                <li class="nav-bar__item"><a href="#about" class="nav-bar__link">02About Me</a></li>
+                <li class="nav-bar__item"><a href="#work" class="nav-bar__link">03What I do</a></li>
+                <li class="nav-bar__item"><a href="#" class="nav-bar__link">04Contact Me</a></li>
+            </ul>
+        </nav> -->
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">What I do</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Jane Smith</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="img/dev-jane-01.png" alt="pic of Yamamoto smiling" class="intro__img">
+    </section>
+
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I Do</h2>
+        <div class="services"> <!--columns-->
+            <div class="service">
+                <h3>Design & Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea eligendi dolore repudiandae atque. Aperiam, dolores obcaecati cumque nihil quasi voluptatem iusto? Autem aut odio repellat veniam. Voluptate, eveniet recusandae.</p>
+            </div>
+            <div class="service">
+                <h3>E-commerce</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas atque neque eaque aspernatur fuga doloribus, non quaerat tempore nam esse quibusdam qui et voluptatum quis deserunt nulla culpa officia molestiae.</p>
+            </div>
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reiciendis ratione harum veniam saepe ipsam pariatur dolore. Asperiores sequi, harum soluta vero beatae dignissimos cum vel repudiandae necessitatibus, officiis ea?</p>
+            </div>
+        </div>
+
+            <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I Am</h2>
+        <p class="section__subtitle section__subtitle--about">Chimpanzee, Billionaire, Master Programmer, Genius</p>
+
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repudiandae minima quibusdam rem quisquam magnam nihil corporis nam fuga fugit, sit consequatur voluptatum illo? Nihil voluptatem a cumque excepturi pariatur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dignissimos. Eum aperiam ea, molestiae consectetur deleniti excepturi vel, perferendis a, aliquid aliquam id ullam saepe debitis dolores et quisquam placeat.</p>
+        </div>
+
+        <img src="img/sheep.jpg" alt="sheep" class="about-me__img">
+    </section>
+
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title-work">My Work</h2>
+        <p class="section__subtitle-work">A selection from my range of work</p>
+        
+        <!--Portfolio-->
+        <div class="portfolio">
+            <!--Portfolio item 01-->
+            <a href="#" class="portfolio__item">
+                <img src="img/buying-online.jpg" alt="" class="portfolio__img">
+            </a>
+            
+            <!--Portfolio item 02-->
+            <a href="#" class="portfolio__item">
+                <img src="img/imac.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 03-->
+            <a href="#" class="portfolio__item">
+                <img src="img/laptop-macbook-lapot.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 04-->
+            <a href="#" class="portfolio__item">
+                <img src="img/meeting-laptop.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 05-->
+            <a href="#" class="portfolio__item">
+                <img src="img/table-laptop.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 06-->
+            <a href="#" class="portfolio__item">
+                <img src="img/macbook-laptopopto.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 07-->
+            <a href="#" class="portfolio__item">
+                <img src="img/statics-graphs.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 08-->
+            <a href="#" class="portfolio__item">
+                <img src="img/random-design.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 09-->
+            <a href="#" class="portfolio__item">
+                <img src="img/laptop.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 10-->
+            <a href="#" class="portfolio__item">
+                <img src="img/setup.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 11-->
+            <a href="#" class="portfolio__item">
+                <img src="img/macbook-on-table.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 12-->
+            <a href="#" class="portfolio__item">
+                <img src="img/random-design.png" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:jonnjac007@gmail.com" class="footer__link">jonnjac007@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io" target="_blank">
+                    <i class="fa fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://dribbble.com" target="_blank">
+                    <i class="fa fa-dribbble"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/brain.js"></script>
+
+</body>
+</html> 
